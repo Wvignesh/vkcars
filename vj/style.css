@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.colls {
+    margin-left: 50%;
+}
+
+.why .vk-cars {
+    color: #fff;
+}
+
+.btns-c {
+    background-color: black;
+    width: 100%;
+}
+
+.btns-c {
+    text-decoration: none;
+    color: #fff;
+}
+
+.car-details button {
+    border: none;
+}
+
+.btn-under {
+    width: 100%;
+    color: #000;
+    border: none;
+}
+
+.car-details button:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.btn-under:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.custom-cards {
+    height: 300px;
+    border: 2px solid rgba(128, 128, 128, 0.479);
+}
+
+.vimage {
+    position: relative;
+}
+
+#v-img .y-img img {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+#v-img span.vicon {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    margin: auto;
+    height: 80px;
+    width: 80px;
+    text-align: center;
+    line-height: 70px;
+    border: 3px solid #ffffff;
+    font-size: 35px;
+    color: #000;
+    background-color: #ffffff;
+    border-radius: 50%;
+}
+
+.f-border {
+    border-top: 1px solid #fff;
+    border-width: 100%;
+}
+
+.ftb {
+    border-top: 1px solid #fff;
+}
+
+@media (max-width:700px) {
+    #v-img span.fa {
+        position: absolute;
+        top: 50%;
+        right: 50%;
+        margin: auto;
+        height: 40px;
+        width: 40px;
+        text-align: center;
+        line-height: 35px;
+        border: 3px solid #ffffff;
+        font-size: 20px;
+        color: #000;
+        background-color: #ffffff;
+        border-radius: 50%;
+    }
+    .custom-cards .card-body {
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+    }
+}
+
+.visually-hidden {
+    position: absolute;
+}
+
+.fa-chevron-circle-left {
+    font-size: 40px;
+    position: absolute;
+    top: 40%;
+    left: 2%;
+    z-index: 10;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.fa-chevron-circle-right {
+    font-size: 40px;
+    position: absolute;
+    top: 40%;
+    left: 92%;
+    z-index: 10;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+.link {
+    justify-content: center;
+    align-items: center;
+    background-color: #f3f3f3;
+    border: 1px solid white;
+    justify-content: space-evenly;
+}
+
+.link i {
+    color: #929292;
+    font-size: 12px;
+    padding-right: 5px;
+}
+
+.link:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+@media (max-width:700px) {
+    .link {
+        font-size: 12px;
+    }
+}
